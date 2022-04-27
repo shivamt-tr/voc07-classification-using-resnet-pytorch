@@ -196,6 +196,7 @@ writer.close()
 
 # %%
 
+# Plot loss and accuracy curves
 plt.plot(train_loss_history, label = 'Train Loss')
 plt.plot(val_loss_history, label = 'Val Loss')
 plt.legend()
